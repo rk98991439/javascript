@@ -6,7 +6,7 @@ console.log(array[0]);
 const data = array[1];
 console.log(array[1]);
 
-const ourArray = [50, 40, 30];
+const ourArray = [50, 40, 30];vsdfdfd
 ourArray[0] = 15;
 console.log(ourArray[0]);
 
