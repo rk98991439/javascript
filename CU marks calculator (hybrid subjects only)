@@ -1,0 +1,47 @@
+class Course {
+  constructor(courseName, accessPoint) {
+    this.courseName = courseName;
+    this.accessPoint = accessPoint;
+    this.evaluateGrades();
+  }
+
+  evaluateGrades() {
+    // Author: github.com/rk98991439
+    var table = document.getElementById("ui-accordion-accordion-panel-" + this.accessPoint).getElementsByTagName('table')[0].getElementsByTagName('tbody')[0];
+    var rows = table.rows;
+    var total = 0, wkEval = 0, mstEval = 0;
+    
+    for(var i=0; i < rows.length; i++) {
+      var colName = rows[i].getElementsByTagName('td')[0];
+      var colNameVal = colName.innerHTML.trim();
+      colNameVal = colNameVal.replace(/[0-9]/g, '').trim();
+      var col = rows[i].getElementsByTagName('td')[2];
+      var val = parseFloat(col.innerHTML.trim());
+       
+      if(colNameVal == 'Practical Evaluations') total += (val/40)*20;
+      else if(colNameVal == 'Attendance Marks') total += val;
+      else if(colNameVal == 'Surprise Test') total += (val/12)*4;
+      else if(colNameVal == 'practical MST') total += (val/12)*4;
+      else if(colNameVal == 'Practical Worksheet/Projects') wkEval += val;
+      else if (colNameVal == 'Quiz') total += val;
+      else if(colNameVal == 'Assignment/GD Hybrid') total += (val/10)*6;
+      else if(colNameVal == 'MST- Hybrid') mstEval += val;
+    }
+
+    wkEval = (wkEval/300)*20;
+    mstEval = (mstEval/80)*10;
+
+    total += wkEval + mstEval + 4; // Assuming Portfolio Discussion +4 marks
+    total = Math.round(total * 100) / 100;
+    alert(this.courseName + ': ' + total + '/70');
+  }
+}
+
+let dataMining = new Course('Data Mining and Warehousing', 0);
+let computerNetworks = new Course('Computer Networks', 1);
+let descriptiveAnalytics = new Course('Descriptive Analytics', 2);
+let bigDataEngineering = new Course('Big Data Engineering', 3);
+let blockChain = new Course('Block Chain', 4);
+let aptitude = new Course('Aptitude', 5);
+let softSkillsIII = new Course('Soft Skills III', 6);
+let minorProjectII = new Course('Minor Project II', 7);
