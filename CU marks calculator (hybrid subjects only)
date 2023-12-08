@@ -45,3 +45,5 @@ let blockChain = new Course('Block Chain', 4);
 let aptitude = new Course('Aptitude', 5);
 let softSkillsIII = new Course('Soft Skills III', 6);
 let minorProjectII = new Course('Minor Project II', 7);
+
+
