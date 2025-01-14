@@ -27,3 +27,9 @@ console.log(c);
 
 c = c+x
 console.log(c);
+
+const a = "value cant not change";
+
+console.log (a);
+
+a = dsd
