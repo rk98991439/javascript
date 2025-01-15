@@ -21,6 +21,7 @@ basic JS and doing mini projects from a learning point of view.
 | - `for`, `while`, `do...while`        | - `try...catch`                                   | - WebSockets                              |
 | - `for...in`, `for...of`              |                                                   | - RESTful APIs and GraphQL                |
 |                                       |                                                   | - Async iterators and generators          |
+|                                       |                                                   |                                           |
 | 4. **Functions**                      | 4. **Asynchronous JavaScript**                    | 4. **Performance Optimization**           |
 | - Declaring functions                 | - Callbacks, Promises, and `async/await`          | - Debouncing and throttling               |
 | - Parameters and return values        | - Fetch API and AJAX                              | - Memory leaks and garbage collection     |
