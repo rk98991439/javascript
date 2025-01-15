@@ -50,13 +50,14 @@ basic JS and doing mini projects from a learning point of view.
 | 3. **Web Performance and Accessibility** | 3. **State Management**                          |                                                 |
 | - Optimizing load times                  | - Redux, Context API, or Zustand                 |                                                 |
 | - Understanding ARIA roles               |                                                  |                                                 |
-|                                           | 4. **TypeScript**                                |                                                 |
-| 4. **Advanced Patterns**                 | - Strongly typed JavaScript for larger projects  |                                                 |
-| - Design patterns like Singleton, Factory, etc. |                                              |                                                 |
+|                                          |                                                  |                                                 |
+| 4. **Advanced Patterns**                 | 4. **TypeScript**                                |                                                 |
+| - Design patterns like Singleton, Factory, etc. | - Strongly typed JavaScript for larger projects|                                                 |
 | - Module pattern                         |                                                  |                                                 |
 | - Observer and Pub/Sub                   |                                                  |                                                 |
-|                                           | 5. **Security**                                  |                                                 |
-| 5. **Security**                          | - Understanding XSS, CSRF, and other vulnerabilities |                                           |
-| - Securing APIs                          | - Securing APIs                                  |                                                 |
+|                                          |                                                  |                                                 |
+| 5. **Security**                          | 5. **Security**                                  |                                                 |
+| - Securing APIs                          | - Understanding XSS, CSRF, and other vulnerabilities |                                           |
+|                                          | - Securing APIs                                  |                                                 |
 
 
