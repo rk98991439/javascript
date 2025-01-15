@@ -1,4 +1,4 @@
-# javascript  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# javascript  ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 basic JS and doing mini projects from a learning point of view.
 
