@@ -1,5 +1,4 @@
 # javascript
-
 basic JS and doing mini projects from a learning point of view.
 
 | **Beginner (Core JavaScript Basics)** | **Intermediate (Core JavaScript and Browser APIs)** | **Advanced (Modern JavaScript Concepts)** |
