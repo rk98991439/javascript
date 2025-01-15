@@ -2,40 +2,6 @@
 
 basic JS and doing mini projects from a learning point of view.
 
-| **Beginner (Core JavaScript Basics)** | **Intermediate (Core JavaScript and Browser APIs)** |
-| ------------------------------------- | ----------------------------------------------- |
-| 1. **Syntax and Basics**              | 1. **Advanced Data Structures**                |
-| - Variables (`var`, `let`, `const`)   | - Arrays: `map()`, `filter()`, `reduce()`      |
-| - Data types (string, number, etc.)   | - Objects: destructuring, methods              |
-| - Operators (arithmetic,logical,etc.) | - Sets and Maps                                |
-| - Comments (`//`, `/* */`)            |                                               |
-| 2. **Control Flow**                   | 2. **Advanced Functions**                     |
-| - `if`, `else if`, `else`             | - Closures                                    |
-| - `switch` statements                 | - `this` and context                          |
-|                                       | - Arrow functions and binding                 |
-|                                       | - Higher-order functions                      |
-|                                       | - Callback functions                          |
-|                                       |                                               |
-| 3. **Loops**                          | 3. **Error Handling**                         |
-| - `for`, `while`, `do...while`        | - `try...catch`                               |
-| - `for...in`, `for...of`              |                                               |
-|                                       |                                               |
-| 4. **Functions**                      | 4. **Asynchronous JavaScript**                |
-| - Declaring functions                 | - Callbacks, Promises, and `async/await`      |
-| - Parameters and return values        | - Fetch API and AJAX                          |
-| - Function expressions and IIFEs      | - Event loop and microtasks/macrotasks        |
-|                                       |                                               |
-| 5. **Basic DOM Manipulation**         | 5. **Modules**                                |
-| - `document.querySelector()`          | - `import` and `export`                       |
-| - Adding event listeners              | - Using modules in modern JavaScript          |
-| - Changing text and styles dynamically|                                               |
-|                                       |                                               |
-| 6. **Basic Debugging**                | 6. **Browser APIs**                           |
-| - Using console.log()                 | - LocalStorage, SessionStorage                |
-| - Understanding errors in the console | - Fetch API                                   |
-|                                       | - LocalStorage, SessionStorage, and Cookies   |
-|                                       |                                               |
-
 | **Beginner (Core JavaScript Basics)** | **Intermediate (Core JavaScript and Browser APIs)** | **Advanced (Modern JavaScript Concepts)** |
 | ------------------------------------- | --------------------------------------------------- | ----------------------------------------- |
 | 1. **Syntax and Basics**              | 1. **Advanced Data Structures**                    | 1. **Object-Oriented Programming (OOP)**  |
@@ -70,32 +36,27 @@ basic JS and doing mini projects from a learning point of view.
 | - Understanding errors in the console | - Fetch API                                       |                                           |
 |                                       | - LocalStorage, SessionStorage, and Cookies       |                                           |
 
+| **Specialized Topics**                   | **Ecosystem and Libraries**                      | **Project-Based Learning**                      |
+| ----------------------------------------- | ------------------------------------------------ | ----------------------------------------------- |
+| 1. **Node.js (Backend)**                 | 1. **Frameworks and Libraries**                  | - To-Do List App                                |
+| - Setting up servers with Express.js     | - React.js (Highly recommended for MERN)         | - Weather App (using APIs)                      |
+| - Working with databases like MongoDB    | - Vue.js or Angular (alternative options)        | - Chat App (real-time with WebSockets)          |
+| - Building RESTful APIs                  |                                                  | - Full-stack MERN project                       |
+|                                           | 2. **Build Tools**                               |                                                 |
+| 2. **Testing and Debugging**             | - NPM and Yarn                                   |                                                 |
+| - Debugging tools (e.g., Chrome DevTools)| - Webpack, Vite, or Parcel                       |                                                 |
+| - Writing testable code                  | - Babel                                          |                                                 |
+|                                           |                                                  |                                                 |
+| 3. **Web Performance and Accessibility** | 3. **State Management**                          |                                                 |
+| - Optimizing load times                  | - Redux, Context API, or Zustand                 |                                                 |
+| - Understanding ARIA roles               |                                                  |                                                 |
+|                                           | 4. **TypeScript**                                |                                                 |
+| 4. **Advanced Patterns**                 | - Strongly typed JavaScript for larger projects  |                                                 |
+| - Design patterns like Singleton, Factory, etc. |                                              |                                                 |
+| - Module pattern                         |                                                  |                                                 |
+| - Observer and Pub/Sub                   |                                                  |                                                 |
+|                                           | 5. **Security**                                  |                                                 |
+| 5. **Security**                          | - Understanding XSS, CSRF, and other vulnerabilities |                                           |
+| - Securing APIs                          | - Securing APIs                                  |                                                 |
 
-
-| **Advanced (Modern JavaScript Concepts)** | **Specialized Topics**                            |
-| ----------------------------------------- | ------------------------------------------------ |
-| 1. **Object-Oriented Programming (OOP)**  | 1. **Node.js (Backend)**                         |
-| - Classes and objects                     | - Express.js servers                             |
-| - Prototypes and inheritance              | - MongoDB integration                            |
-|                                           |                                                  |
-| 2. **Functional Programming**             | 2. **Testing and Debugging**                    |
-| - Pure functions                          | - Debugging tools                                |
-| - Immutability                            | - Writing testable code                          |
-|                                           |                                                  |
-| 3. **Advanced Asynchronous Concepts**     | 3. **Web Performance and Accessibility**         |
-| - WebSockets                              | - Optimizing load times                          |
-| - RESTful APIs and GraphQL                | - ARIA roles and accessibility best practices    |
-|                                           |                                                  |
-| 4. **Performance Optimization**           | 4. **Advanced Patterns**                         |
-| - Debouncing and throttling               | - Design patterns like Singleton, Factory, etc.  |
-| - Lazy loading                            |                                                  |
-|                                           | 5. **Security**                                  |
-|                                           | - Understanding XSS, CSRF, etc.                 |
-
-| **Project-Based Learning**                |
-| ----------------------------------------- |
-| - To-Do List App                          |
-| - Weather App (using APIs)                |
-| - Chat App (real-time with WebSockets)    |
-| - Full-stack MERN project                 |
 
