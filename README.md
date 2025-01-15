@@ -38,28 +38,27 @@ basic JS and doing mini projects from a learning point of view.
 |                                       | - LocalStorage, SessionStorage, and Cookies       |                                           |
 
 | **Specialized Topics**                   | **Ecosystem and Libraries**                      | **Project-Based Learning**                      |
-| ----------------------------------------- | ------------------------------------------------ | ----------------------------------------------- |
-| 1. **Node.js (Backend)**                 | 1. **Frameworks and Libraries**                  | - To-Do List App                                |
-| - Setting up servers with Express.js     | - React.js (Highly recommended for MERN)         | - Weather App (using APIs)                      |
-| - Working with databases like MongoDB    | - Vue.js or Angular (alternative options)        | - Chat App (real-time with WebSockets)          |
-| - Building RESTful APIs                  |                                                  | - Full-stack MERN project                       |
-|                                          |                                                  |                                                 |
+| ---------------------------------------  | ------------------------------------------------ | ----------------------------------------------- |
+| 1. **Node.js (Backend)**                 | 1. **Frameworks and Libraries**                  | - **To-Do List App**                            |
+| - Setting up servers with Express.js     | - React.js (Highly recommended for MERN)         | - **Weather App (using APIs)**                  |
+| - Working with databases like MongoDB    | - Vue.js or Angular (alternative options)        | - **Chat App (real-time with WebSockets)**      |
+| - Building RESTful APIs                  |                                                  | - **Full-stack MERN project**                   |
+|                                           |                                                  |                                                 |
 | 2. **Testing and Debugging**             | 2. **Build Tools**                               |                                                 |
 | - Debugging tools (e.g., Chrome DevTools)| - NPM and Yarn                                   |                                                 |
 | - Writing testable code                  | - Webpack, Vite, or Parcel                       |                                                 |
-|                                          | - Babel                                          |                                                 |
-|                                          |                                                  |                                                 |
+|                                           | - Babel                                          |                                                 |
+|                                           |                                                  |                                                 |
 | 3. **Web Performance and Accessibility** | 3. **State Management**                          |                                                 |
 | - Optimizing load times                  | - Redux, Context API, or Zustand                 |                                                 |
 | - Understanding ARIA roles               |                                                  |                                                 |
-|                                          |                                                  |                                                 |
+|                                           |                                                  |                                                 |
 | 4. **Advanced Patterns**                 | 4. **TypeScript**                                |                                                 |
-| - Design patterns like Singleton, Factory, etc. | - Strongly typed JavaScript for larger projects|                                            |
+| - Design patterns like Singleton, Factory, etc. | - Strongly typed JavaScript for larger projects |                                                 |
 | - Module pattern                         |                                                  |                                                 |
 | - Observer and Pub/Sub                   |                                                  |                                                 |
-|                                          |                                                  |                                                 |
+|                                           |                                                  |                                                 |
 | 5. **Security**                          | 5. **Security**                                  |                                                 |
-| - Securing APIs                          | - Understanding XSS, CSRF, and other vulnerabilities |                                             |
-|                                          | - Securing APIs                                  |                                                 |
-
+| - Securing APIs                          | - Understanding XSS, CSRF, and other vulnerabilities |                                              |
+|                                           | - Securing APIs                                  |                                                 |
 
