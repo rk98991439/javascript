@@ -8,7 +8,7 @@
 // for/of - loops through the values of an iterable object
 // while - loops through a block of code while a specified condition is true
 // do/while - also loops through a block of code while a specified condition is true
-let x = 10;
+let x = 2;
 
 for (let i = 0; i < x; i++) {
     console.log (i) ;
@@ -18,5 +18,11 @@ for (let i = 0; i < x; i++) {
   
   const fruits = ['Apple', 'Banana', 'Orange'];
 for (x in fruits) {
-  console.log(x);
+  console.log(x +" "+fruits[x]+"\n");
 }
+
+let i = 0;
+while (i < 10) {
+    console.log("The number is " + i);
+    i++;
+  }
