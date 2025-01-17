@@ -8,13 +8,23 @@
 // for/of - loops through the values of an iterable object
 // while - loops through a block of code while a specified condition is true
 // do/while - also loops through a block of code while a specified condition is true
-let x = 2;
+
+let x = 7;
+let z = "";
 
 for (let i = 0; i < x; i++) {
-    console.log (i) ;
-  }
+ z = i + console.log (i) ;
 
+}
 
+console.log("\n");  
+console.log(z);  
+
+// revese loop
+
+for (let i = 0; z[-1]< i; z--) {
+  console.log (z) ;
+} 
   
   const fruits = ['Apple', 'Banana', 'Orange'];
 for (x in fruits) {
@@ -22,7 +32,9 @@ for (x in fruits) {
 }
 
 let i = 0;
-while (i < 10) {
+while (i < 5) {
     console.log("The number is " + i);
     i++;
   }
+
+
